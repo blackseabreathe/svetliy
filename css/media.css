@@ -1,0 +1,207 @@
+@media only screen and (max-width: 960px) {
+.content,.privilegesInfo,.renovations.grid{width:87%}
+
+
+/*fz10*/
+.notRealCalcResults{font-size:10px}
+
+/*fz12*/
+.middle .coockie p,.mortgageDevide .left p,.topSide,.bottomSide,.reviewSlider p{font-size:12px}
+
+/*fz14*/
+.middle p,.privilegesInfoInner,.superiority span,.spreadOut,.renovationItem p{font-size:14px}
+
+/*fz18*/
+.name,.seasonName,.spreadTitle,.appartmentsSlider .owl-item.center .infoTop,.appartmentsSlider .owl-item.center .appartmentQuadraturePrice,.renovationName,.roomesCountNumQuadrature{font-size:18px}
+
+/*fz24*/
+.mortgageConfirmationPercent span,.paymentPerMonth{font-size:24px}
+
+/*fz30*/
+.subHeadline,.tabs ul li,.subHeadlineInitial,.pol h3{font-size:30px}
+
+
+/*fz42*/
+.headline{font-size:42px}
+
+
+/*fz 78*/
+.errorNum{font-size:78px}
+
+
+
+/*text uppercase*/
+.middle p{text-transform:uppercase}
+
+/*text usual*/
+.middle .coockie p{text-transform:none}
+
+/*tal*/
+.middle .coockie p,#callback .inputLabel,#requestBox .inputLabel,#calcBox .inputLabel{text-align:left}
+
+
+/*lh 120%*/
+.topSide,.mortgageDevide .bottomSide p{line-height:120%}
+
+/*lh 130*/
+.superiority span{line-height:130%}
+
+/*flex 47.2*/
+.renovationItem{max-width:47.2%;flex-basis:47.2%}
+
+/*tac*/
+.notRealCalcResults,.promoMonth,#callback,#requestBox,#calcBox{text-align:center}
+
+
+/*flex auto*/
+.privilegesItem:not(:first-child){flex-basis:auto}
+
+
+/*flex 49*/
+.album,.superiority{max-width:49%;flex-basis:49%}
+
+/*flex 100*/
+.mortgageDevide .left,.mortgageDevide .right,.privilegesItem:first-child,.contact{max-width:100%;flex-basis:100%}
+
+/*column*/
+.sdBtns,.footerMenu ul,.tabsList,.apartmentBasePrices,.galleryAndTour{flex-direction:column}
+
+/*aifs*/
+.privilegesItem,.footerMenu ul,.tabsList,.galleryAndTour{align-items:flex-start}
+
+/*row*/
+.addressAndSocs{flex-direction:row}
+
+/*order 1*/
+.album:nth-child(3) .seasonName,.album:nth-child(4) .seasonName,footer .left{order:1}
+
+/*order -1*/
+.excursion,.contact:nth-child(2){order:-1}
+
+
+/*z index 1*/
+.appartments .content,.privilegesItem,.gallery,.superiorities,.superiorityTitle{z-index:1}
+
+/*z index -1*/
+.xxx{z-index:-1}
+
+
+/*dn/db*/
+header .menu,.notRealCalcResults br,.tabsList:before,.tabsList:after,.privilegesItem .allOfPrivileges,#error .headerContact{display:none}
+.btnAndWhatsapp a,.top .headline span,.allOfPrivilegesMobile,.seasonImage img,.knowMore,.phoneMobile{display:block}
+
+/*h 640px*/
+.top,.privileges{height:640px} 
+
+
+/*gray bg*/
+.superiorities,.whiteLine{background:var(--gray)}
+
+/*right -62.2%*/
+.declarations,.phoneMobile,.postFooter .privacy{right:-62.2%}
+
+/*transition none !*/
+#appartmentDetail,#renovationDetail{transition:none!important}
+
+
+
+/*common*/
+header .callback{margin:0} .btnAndWhatsapp{margin:11px 0 0} .btnAndWhatsapp .waHref path:first-child{fill:var(--green)} .btnAndWhatsapp .waHref path:nth-child(2){fill:#fff} .btnAndWhatsapp a{margin:0} .middle p{margin:33px 0 36px} .top .headline{max-width:280px} .coockie{position:absolute;left:0;right:0;margin:auto;width:300px;bottom:4px} .middle .coockie p{margin:0} .mortgage{padding:23px 0 54px} .mortgage .subHeadline{max-width:220px} .mortgageDevide .left p{margin:16px 0 0;max-width:195px} .mortgageConfirmationPercent img{width:38px} .mortgageConfirmationPercent{margin:3px 0 0} .topSide{position:absolute;top:78px;right:0} .calc{margin:82px 0 0} .calc .input:nth-child(2n+1),.calc .input:nth-child(2n+2){width:100%} .calc .input,.calc .input:nth-child(-n+2){margin:0 0 24px} .calc .input:first-child{order:-4} .calc .input:nth-child(3){order:-3} .calc .input:last-child{order:-2} .mortgageDevide .bottomSide p{margin:0 0 12px;width:90px} .mortgageBtn{position:absolute;top:11px;right:0;padding:19px 27px 15px} .banks img{max-width:38px;opacity:1} .banks{margin:70px 0 0} .notRealCalcResults{position:absolute;bottom:-137px;left:0;right:0;margin:auto} .appartments .content{width:100%} .tabsList{padding:20px 6.5% 0;width:100%;background:none} .tabs ul li:first-child{margin:0 0 18px} .appartments{padding:0 0 50px} .roomsCounts{top:-100px;left:auto;right:6.5%}  .tabsList .arrowRight{margin:0;position:absolute;top:12px;right:-30px} .appartmentsSlider{padding:40px 0 0} .appartmentsSlider .owl-item.center .appartmentInfo{width:176px} .appartmentMainImage{height:148px} .appartmentsSlider .owl-item.center .appartmentMainImage{height:223px}  .appartmentMainImage img,.expandImage img{width:auto;min-width:100%;height:100%} .appartmentsSlider .owl-item:not(.center) .appartmentInfo{height:148px;margin:40px auto 0} .appartmentsSlider .owl-item.center .infoTop{margin:0 0 9px} .appartmentsSlider .owl-item.center .appartmentQuadraturePrice{margin:9px 0 0} .appartmentInfoBtn{margin:9px 0 0} .renovations.grid{margin:40px auto 0;row-gap:20px} .renovationItem{height:148px} .renovationItem svg{height:24px} .renovationItem p{margin:17px 0 0;width:70%} #appartmentDetail{left:-110%!important} .arcticmodal-container #appartmentDetail{left:0!important;position:relative} #renovationDetail{right:-110%!important} .arcticmodal-container #renovationDetail{right:0!important;position:relative} #appartmentDetail,#renovationDetail{width:calc(100vw - 4px);height:auto;max-width:480px;top:0;bottom:auto;margin:0 auto} #appartmentDetail{padding:0 0 16px} #renovationDetail{padding:0 0 20px} .apartmentBasePrices .left{margin:0 0 33px} .privilegesList{width:100%;padding:20px 0 0;position:static} .superiorityTitle{position:absolute} .privilegesItem:first-child{margin:0 0 23px} .privilegesItem:last-child{margin:0} .privilegesInfo{height:70%;padding:0 0 100px;margin:250px auto 0} .privilegesInfoInner p{margin:0;width:60%} .privilegesInfoInner{padding:0 20px 50px 0} .arrowRight{width:15px;height:auto;display:block} .privilegesItem:nth-child(2) .arrowRight,.privilegesItem:last-child .arrowRight{top:7px;right:3px} .privilegesInfoImage{max-width:293px;width:36%;margin:0;position:absolute;top:0;right:20px} .allOfPrivilegesMobile{opacity:1;margin:24px 0 0} .whiteLine{padding:53px 6.5% 0} .reviews{min-height:600px;padding:0 0 80px} .reviewSlider{margin:68px 0 0} .reviews .content{width:100%} .reviewInfo{max-width:176px} .photo{margin:10px 0 0;height:223px} .reviewSlider .owl-item:not(.center) .item .photo{margin:0} .photo img{padding:37px 0;width:auto;height:148px;max-width:initial} .reviewSlider .owl-item:not(.center) .item .photo img{height:67px} .reviewSlider .owl-item:not(.center) .item .reviewInfo{margin:44px auto 0} .gallery{padding:0 0 97px} .album:nth-child(3) .seasonName,.album:nth-child(4) .seasonName{margin:10px 0 0} .album{margin:0 0 10px} .galleryAndTour .arrowRight,.superiorityTitle .arrowRight{top:10px;right:15px} .tour3D{width:100%;max-width:898px;height:454px;margin: 0 auto} .superioritiesTitles{position:absolute;width:100%;height:100%;top:0;left:0} .galleryAndTour h2:first-child{margin:0 0 19px} .superiorities{padding:80px 0 0} .superioritiesTitles{top:50px;padding:0} .icon svg{height:26px} .superiority .icon{margin:0 0 13px} .superiority{padding:36px 10px} .superiorityTitle:first-child{top:0;left:6.5%} .superiorityTitle:last-child{bottom:146px;left:6.5%} .superioritiesGrid{padding:50px 0 164px} .knowMore{position:absolute;bottom:13px;left:0;right:0;margin:auto} .knowMore span{border-bottom:1px solid var(--vinous)} #superiorityDetail{width:100%;max-width:480px;height:auto;top:0;left:-110%!important} .arcticmodal-container #superiorityDetail{left:0!important;position:relative} .sdText{margin:44px 0 0} .sdText p{width:97%} .sdText p:not(:first-child),.phoneAndWhatsapp .waHref{margin:17px 0 0} .excursion{margin:0 0 16px} .sdIcon{height:280px} .contact:first-child{margin:69px 0 0} .phoneAndWhatsapp{margin:59px 0 0} .shareContacts{margin:56px 0 0} footer{padding:56px 0 0} .contactsRouteBoxes{padding:57px 0 0} .contact.banner{max-width:500px;margin:110px 0 0;height:480px} .bannerInner .arrowRight{-webkit-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg)} .bannerInner h3{width:180px} .promoMonth{font-size:115px} .contactsRoute h2:last-child{position:absolute;top:46.8%} .contactsRoute .arrowRight{right:42px}  .validIcon{margin:30px auto 40px} .showAfterFormSent p{margin:0 auto;width:280px} .footerLogo img{width:84px;margin:0 0 0 auto;display:block} .postFooter .left p{margin:8px 0 0} .footerMenu li:not(:last-child){margin:0 0 10px} .declarations{position:absolute;top:140px} .phoneMobile a{color:#fff} .phoneMobile a:hover{color:var(--link-color)} .phoneMobile{position:absolute;width:290px;top:202px} .footerBottom{margin:94px 0 0} .copyright span{display:block;width:160px} .postFooter .privacy{position:absolute;bottom:2px} 
+
+
+
+
+/*error 404*/
+.errorTop .subHeadline{max-width:300px;flex-basis:300px} .errorTop p{margin:27px 0 0} .errorLabel{top:2px;left:0} .errorInfo{top:0;bottom:0} .errorInfo .likeBtn{padding:26px 0;position:fixed;width:100%;max-width:294px;top:auto;left:0;right:0;bottom:20px;margin:auto} 
+
+
+
+
+
+/*modal*/
+.arcticmodal-container_i{width:100%!important} .arcticmodal-container_i2{padding:0!important} .box-modal{width:100%;min-height:100vh;display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:flex;flex-direction:column;align-items:center;justify-content:center} #apartmentFilmWrapper{width:100%;height:auto} .modal-close{right:15px!important;top:80px!important} .modal-close svg{width:16px!important} #apartmentFilmWrapper .modal-close{top:15%!important} #privacy{padding:60px 6.5% 80px;width:100%;margin:0 auto} .pol h3{margin:0 0 60px;-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;-epub-hyphens:auto;word-break:break-word} .spread:before{top:27px;width:13px;height:8px;-webkit-background-size:cover;background-size:cover} .spreadTitle{width:80%} .spreadOut{padding:35px 0;width:95%} .apartmentFilmPlaceholder{height:400px} #callback,#requestBox,#calcBox{padding:100px 0;width:100%;height:100%} #callback .formTitle,.formText,#requestBox .formTitle,#calcBox .formTitle{padding:0} .callbackForm,.requestForm,.calcForm{margin:0 auto} .formText{margin:18px 0 71px} #callback .showAfterFormSent,#requestBox .showAfterFormSent,#calcBox .showAfterFormSent{margin:40px auto 0} .showAfterFormSent .because p{width:auto} .fancybox-arrow.fancybox-arrow--right{right:16px} .fancybox-arrow.fancybox-arrow--left{left:16px} .box-modal.cloudsTop{background:#fff url(../img/clouds.jpg)top right no-repeat} #requestBox .formTitle,#calcBox .formTitle{max-width:100%}
+
+
+
+
+
+
+
+
+}
+
+
+/*--iPhone Portrait--*/
+@media only screen and (max-width: 390px) {
+.content, .privilegesInfo, .renovations.grid{width:90.5%}
+
+
+/*fz12*/
+.detailsList{font-size:12px}
+
+/*fz16*/
+.sdName,.renovationName{font-size:16px}
+
+/*fz 24*/
+.subHeadline,.tabs ul li,.subHeadlineInitial,.pol h3{font-size:24px}
+
+/*fz 95*/
+.promoMonth{font-size:95px}
+
+
+
+/*flex 70*/
+.sdName,.renovationName{max-width:70%;flex-basis:70%}
+
+
+
+/*common*/
+.mortgage{padding-bottom:84px} .mortgageDevide .left p{max-width:135px} .mortgageBtn{padding:19px 10px 15px} .notRealCalcResults{bottom:-177px} .roomsCounts span{width:36px;height:36px} .roomsCounts{top:-82px;right:4.75%} .tabsList{padding:20px 4.75% 0} 
+
+
+
+}
+
+
+
+/*--Small Laptops--*/
+@media only screen and (min-width: 961px) and (max-width: 1280px) {
+.content{width:90.5%} 
+
+
+/*fz30*/
+.phoneAndWhatsapp .phone{font-size:30px}
+
+/*fz40*/
+.tabs ul li{font-size:40px}
+
+/*fz36*/
+.subHeadline,.subHeadlineInitial{font-size:36px}
+
+/*fz75*/
+.promoMonth{font-size:75px}
+
+
+/*flex 30*/
+.mortgageDevide .right,.superiority,.fourPerRow:after,.fourPerRow:before,.contact{max-width:30%;flex-basis:30%}
+
+/*common*/
+header .menu{margin:0 0 0 7%} #appartmentDetail{height:calc(100% - 71px)} #renovationDetail{height:calc(100% - 71px);top:71px} .promoMonth{text-align:center} .superiority{margin:0 0 40px} .footerTop,.footerBottom{flex-direction:column;align-items:flex-start} .footerMenu,.postFooter .privacy{margin:0 0 12px} .privilegesList{width:100%;padding:20px 4.75% 0} 
+
+
+
+/*modal*/
+#privacy{width:900px} 
+
+
+
+/*modal*/
+#apartmentFilmWrapper{width:900px;height:522px} 
+
+
+}
+
+/*--Laptops--*/
+@media only screen and (min-width: 1366px) and (max-width: 1920px) {
+
+}
