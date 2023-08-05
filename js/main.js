@@ -150,6 +150,11 @@ calcInterestRate = $('.calc input[name="interestRate"]').attr('data-rate'),
 calcInterestRatePerMonth = (calcInterestRate / 100 / 12);
 
 
+if(parseInt(calcInitialPayment) >= parseInt(calcAppartmentPrice)){
+$('.paymentPerMonth span').empty().text('0');
+return false;
+}
+
 
 
 setTimeout(function(){
