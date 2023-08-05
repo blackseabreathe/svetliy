@@ -139,6 +139,10 @@ $('html, body').animate({scrollTop: $($('.superiorities')).offset().top}, 800, '
 // CALCULATE IT
 $('.calc input[type="tel"]').on('input', function(e){
 
+if($(this).val().replace(/[^0-9]/g, '').length <= 0){
+$(this).val(0);
+return false;
+}
 
 $(this).val(parseFloat($(this).val().replace(/[^0-9]/g, '')).toLocaleString('ru-RU'));
 
@@ -148,7 +152,6 @@ calcLoanTermMonths = calcLoanTerm * 12,
 calcInitialPayment = $('.calc input[name="initialPayment"]').val().replace(/[^0-9]/g, ''),
 calcInterestRate = $('.calc input[name="interestRate"]').attr('data-rate'),
 calcInterestRatePerMonth = (calcInterestRate / 100 / 12);
-
 
 if(parseInt(calcInitialPayment) >= parseInt(calcAppartmentPrice)){
 $('.paymentPerMonth span').empty().text('0');
